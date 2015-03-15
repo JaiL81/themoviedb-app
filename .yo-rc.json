@@ -1,0 +1,22 @@
+{
+  "generator-m": {
+    "answers": {
+      "appName": "The Movie DB App",
+      "appId": "com.jaimeapps.themoviedb",
+      "bowerPackages": [
+        "angular-dynamic-locale#~0.1.27",
+        "angular-translate#~2.6.0",
+        "angular-translate-loader-static-files#~2.6.0",
+        "angular-localForage#~1.2.2"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "plugins": [
+        "org.apache.cordova.device",
+        "org.apache.cordova.network-information"
+      ],
+      "appModule": "theMovieDbApp"
+    }
+  }
+}
